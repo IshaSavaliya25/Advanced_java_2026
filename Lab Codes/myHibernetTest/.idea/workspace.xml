@@ -5,32 +5,66 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20b64241-9250-47da-8cb7-5fd92e177495" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../StudentCRUD/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentCRUD/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentCRUD/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentCRUD/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentCRUD/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentCRUD/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentCRUD/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StudentCRUD/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/semester6/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/semester6/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../servletproject/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../servletproject/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../servletproject/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../servletproject/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Experiments/Practical - 1.docx" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practicals/practical14/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practicals/practical14/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practicals/practical14/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practicals/practical14/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practicals/practical14/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practicals/practical14/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practicals/practical14/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practicals/practical14/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practicals/practical8/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practicals/practical8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practicals/practical8/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practicals/practical8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practicals/practical8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practicals/practical8/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practicals/practical8/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practicals/practical8/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Take Home Exam/take_home_exam/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Take Home Exam/take_home_exam/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Take Home Exam/take_home_exam/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Take Home Exam/take_home_exam/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Take Home Exam/take_home_exam/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Take Home Exam/take_home_exam/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Take Home Exam/take_home_exam/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/LoginApp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/LoginApp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/LoginApp/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/LoginApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/LoginApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/LoginApp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/LoginApp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/LoginApp/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/manage_blogs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/manage_blogs/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/manage_blogs/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/manage_blogs/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/manage_blogs/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/manage_blogs/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/manage_blogs/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/manage_blogs/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/user_management_system/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/user_management_system/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/user_management_system/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/user_management_system/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/user_management_system/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/user_management_system/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tasks/user_management_system/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../librarymanagement/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../librarymanagement/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../librarymanagement/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../librarymanagement/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../librarymanagement/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../librarymanagement/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="14" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,7 +74,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="McpProjectServerCommands">
     <commands />
@@ -68,8 +102,10 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/saval/OneDrive/Desktop/Sem-6/AJ/Lab Codes/myHibernetTest&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -97,6 +133,8 @@
       <updated>1775457569441</updated>
       <workItem from="1775457573525" duration="1575000" />
       <workItem from="1775791101256" duration="196000" />
+      <workItem from="1777089769033" duration="1154000" />
+      <workItem from="1777097297501" duration="967000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Online Store - Products</title>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="mt-4">Online Store Inventory</h1>
+
+        <!-- Reusable fragment for order summary (spring-task4) -->
+        <div th:fragment="orderSummary" th:if="${totalValue != null}">
+            <div class="alert alert-success">
+                <h4>Order Summary</h4>
+                <p>Total after discount: <span th:text="${#numbers.formatCurrency(totalValue)}"></span></p>
+            </div>
+        </div>
+
+        <table class="table table-bordered mt-3">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="product : ${products}">
+                    <td th:text="${product.id}"></td>
+                    <td th:text="${product.name}"></td>
+                    <td th:text="${product.category}"></td>
+                    <td th:text="${#numbers.formatCurrency(product.price)}"></td>
+                    <td>
+                        <span th:if="${product.stockQuantity < 10}" class="text-danger">Low: </span>
+                        <span th:text="${product.stockQuantity}"></span>
+                    </td>
+                    <td>
+                        <a th:href="@{/order/{id}(id=${product.id})}" class="btn btn-primary btn-sm">Order</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Pagination -->
+        <div th:if="${currentPage != null}">
+            <a th:href="@{/products(page=${currentPage-1})}" th:if="${currentPage > 0}">Previous</a>
+            <a th:href="@{/products(page=${currentPage+1})}">Next</a>
+        </div>
+    </div>
+</body>
+
+</html>

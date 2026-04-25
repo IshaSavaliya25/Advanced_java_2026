@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Place Order</title>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" />
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h2>Order Form for <span th:text="${product.name}"></span></h2>
+
+        <form th:action="@{/placeOrder}" th:object="${orderRequest}" method="post">
+            <input type="hidden" th:field="*{productId}" th:value="${product.id}" />
+
+            <div class="mb-3">
+                <label>Quantity</label>
+                <input type="number" th:field="*{quantity}" class="form-control" min="1" required />
+                <div th:if="${#fields.hasErrors('quantity')}" class="text-danger" th:errors="*{quantity}"></div>
+            </div>
+
+            <button type="submit" class="btn btn-success">Place Order</button>
+        </form>
+    </div>
+</body>
+
+</html>

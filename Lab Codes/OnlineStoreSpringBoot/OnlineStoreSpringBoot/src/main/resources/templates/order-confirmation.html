@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Order Confirmation</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h2 th:text="${message}"></h2>
+        <div th:insert="~{product-list :: orderSummary}"></div>
+        <a href="/products" class="btn btn-primary">Continue Shopping</a>
+    </div>
+</body>
+
+</html>
